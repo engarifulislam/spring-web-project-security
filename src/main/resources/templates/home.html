@@ -2,9 +2,16 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org" xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity3">
 <head>
     <title>Security with Spring Boot</title>
+    <link href="css/bootstrap.min.css" th:href="@{/css/bootstrap.min.css}" rel="stylesheet"/>
 </head>
 <body>
 <h1 style="color: green">Hello! This is Home Page!</h1>
 <a style="color:blue" th:href="@{/welcome}">Go Welcome Page</a>
+
+
+<footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js" th:href="@{/js/bootstrap.min.js}"></script>
+</footer>
 </body>
 </html>
